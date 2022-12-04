@@ -1,0 +1,380 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0 20px;
+    border-bottom: 1px solid rgb(196, 195, 195);
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo{
+    height: 29px;
+}
+
+header .logo img{
+    width:100px;
+    object-fit: contain;
+    padding: 0 0 40px;
+}
+
+header .search{
+    width: 250px;
+    background-color: rgb(243, 243, 243);
+    padding: 3px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+header .search input{
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color:  rgb(243, 243, 243);
+  padding-left: 10px;
+  font-size: 15px;
+  color: rgb(85, 84, 84);
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li{
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    color: black;
+}
+
+header nav ul .l1{
+    display: flex;
+}
+
+header nav ul .l2{
+    display: flex;
+}
+
+
+header nav ul .l3{
+    display: flex;
+}
+
+
+header nav ul .l4{
+    display: flex;
+}
+
+header nav ul .l5{
+    display: flex;
+}
+
+header nav ul .l6{
+    display: flex;
+}
+
+/*.l1,.l2,.l3,.l4,.l5,.l6{
+  justify-content: center;
+  align-items: center;
+}*/
+
+header nav ul li a img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*Section*/
+
+section{
+    background-color: rgb(243, 243, 243);
+    padding: 15px 0 15px 0;
+}
+
+.left{
+    width: 65%;
+}
+
+.story{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(201, 201, 201);
+    width: 500px;
+    margin-left: 400px;
+    border-radius: 20px; 
+    margin-top: 10px;
+}
+
+
+section .left .story .stories1,.stories2, .stories3, .stories4, .stories5, .stories6{
+    background-color:rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+
+section .left .story .stories1 a img{
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 0;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 149, 255);
+    
+    
+}
+
+section .left .story .stories2 a img{
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 4px solid rgb(255, 149, 255);
+    
+}
+
+section .left .story .stories3 a img{
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 149, 255);
+    margin-left: 15px;
+}
+
+section .left .story .stories4 a img{
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid rgb(255, 149, 255);
+}
+
+section .left .story .stories5 a img{
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid rgb(255, 149, 255);
+}
+
+section .left .story .stories6 a img{
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 4px solid rgb(255, 149, 255);
+
+}
+
+
+
+
+section .left .story a img{
+
+}
+
+section .left .story p{
+  white-space: nowrap;
+  font-size:15px;
+}
+
+section .left .story .stories1 p{
+    margin-left: 15px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; ;
+    color: rgb(103, 103, 103);
+}
+
+section .left .story .stories2 p{
+    margin-right: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color: rgb(103, 103, 103);
+}
+
+section .left .story .stories3 p{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    color:rgb(103, 103, 103);
+}
+
+section .left .story .stories4 p{
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+   color:rgb(103, 103, 103);
+   overflow: hidden;
+}
+
+section .left .story .stories5 p{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+      color: rgb(103, 103, 103);
+}
+
+section .left .story .stories6 p{
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+     color: rgb(103, 103, 103);
+}
+
+/* Section Posts*/
+
+.posts{
+    margin: 25px 0;
+    
+}
+
+.posts .postT{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 0 0;
+}
+
+section .left .posts .postT .postleft{
+    padding: 0;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+
+section .left .posts .postT .postleft .info .title{
+    font-weight: bold;
+}
+
+
+.posts .postT .postleft .images img{
+    border-radius: 50px;
+}
+
+section .left .posts .postright i{
+    padding: 0;
+    margin-left: 400px;
+}
+
+.posts .post-content{
+    
+}
+
+section .left .posts .post-content img{
+    padding:0;
+    margin-left: 400px ;
+    width: 500px; ;
+    height: 500px;
+}
+
+section .left .posts .post-footer .lsc i{
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+section .left .posts .save i{
+    margin-left: 400px;
+}
+
+section .left .posts .post-footer-content p{
+    margin-left: 400px;
+}
+
+section .left .posts .addc .lefts i{
+    margin-left: 400px; 
+}
+
+section .left .posts .addc .rights p{
+    margin-left: 400px;
+}
+
+
+.posts .post-footer{
+    display: flex;
+    padding: 16px;
+}
+
+.posts .post-footer .lsc{
+    font-size: 22px;
+}
+
+.posts .post-footer .save{
+    font-size: 22px;
+}
+
+.posts .post-footer-content{
+    padding: 0 16px 16px 16px;
+}
+
+.posts .post-footer-content p{
+    margin-bottom: 3px;
+}
+
+.posts .post-footer-content .likes{
+    margin-bottom: 8px;
+}
+
+.posts .post-footer-content .name{
+    font-weight: 600;
+}
+
+.posts .post-footer-content span{
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.posts .post-footer-content .time{
+    font-size: 10px;
+}
+
+.posts .addc{
+    padding: 16px;
+    border-top: 1px solid white;
+}
+
+.posts .addc .lefts{
+     display: flex;
+     align-items: center;
+}
+
+.posts .addc .lefts i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.posts .addc .lefts input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+
+
+.right{
+    width: 35%;
+}
+
+
+.right .profile-l{
+    margin-left: 950px;
+    padding: 0 0 0 120px;
+}
+
+
